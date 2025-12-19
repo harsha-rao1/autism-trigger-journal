@@ -39,17 +39,6 @@
   text-align: right;
 }
 
-.consent-banner {
-  border-radius: 999px;
-  padding: 0.6rem 1.2rem;
-  background: #fef3c7;
-  color: #92400e;
-  font-size: 0.85rem;
-  display: flex;
-  gap: 0.35rem;
-  align-items: center;
-}
-
 .child-selector {
   display: flex;
   flex-direction: column;
