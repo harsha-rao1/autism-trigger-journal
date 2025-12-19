@@ -41,7 +41,6 @@ function App() {
 
   return (
     <div className="app-shell">
-      <ConsentBanner />
       <header className="app-header">
         <div>
           <h1 className="app-title">Sensory Trigger Journal (Video-Assisted)</h1>
@@ -127,16 +126,6 @@ const initialFormState = {
 }
 
 // ---------- Components ----------
-
-function ConsentBanner() {
-  return (
-    <div className="consent-banner">
-      <strong>Privacy-first demo.</strong>{' '}
-      This prototype extracts anonymised patterns from short videos; raw video can be deleted
-      immediately after processing in the real system.
-    </div>
-  )
-}
 
 function ChildSelector({ selectedChildId, onChange }) {
   return (
